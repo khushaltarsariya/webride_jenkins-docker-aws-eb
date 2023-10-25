@@ -11,7 +11,7 @@ EB_BUCKET=webride-bucket
 VERSION="v11"
 ZIP="code.$VERSION.zip"
 
-aws configure set default.region ap-south-1
+aws configure set default.region us-east-1
 
 # Zip up the Dockerrun file
 zip -r $ZIP Dockerrun.aws.json
